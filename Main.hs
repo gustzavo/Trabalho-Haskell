@@ -30,7 +30,7 @@ impar x y = (x*y) `mod` 2 == 1
 par :: (Int,Int) -> Int
 par (x,y) = if even x && even y then x+y else 0
 -- *******************************************************************
---Escreva uma função em Haskell que receba números reais (double) e devolva o resultado da equação ???????
+--Escreva uma função em Haskell que receba números reais (double) e devolva o resultado da equação
 questao8 :: Double -> Double -> Double -> Double
 questao8 x y z = x**2 + y/2 ** z
 -- *******************************************************************
