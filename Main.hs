@@ -28,7 +28,7 @@ impar x y = (x*y) `mod` 2 == 1
 -- *******************************************************************
 --Em Haskell existe o tipo par cuja assinatura tem a seguinte forma: 𝑝𝑎𝑟 ∷ (𝐼𝑛𝑡,𝐼𝑛𝑡). Escreva uma função em Haskell que devolva a soma dos componentes de um par de inteiros.
 par :: (Int,Int) -> Int
-par (x,y) = if even x && even y then x+y else 0
+par (x,y) = if even x && even y then x+y
 -- *******************************************************************
 --Escreva uma função em Haskell que receba números reais (double) e devolva o resultado da equação
 questao8 :: Double -> Double -> Double -> Double
